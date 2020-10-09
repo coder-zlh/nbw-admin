@@ -10,7 +10,7 @@ export class HomePage extends Component {
     render() {
         return (
             <div>
-                Home page: {this.props.authentication.name}
+                Home page: {this.props.authentication.name} hello world
             </div>
         )
     }
